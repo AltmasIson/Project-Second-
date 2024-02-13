@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #d64848;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contanar{
+    position: relative;
+    height: 350px;
+    width: 300px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#contanar img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#contanar i{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.7;
+    transition: transform ease 0.4s;
+}

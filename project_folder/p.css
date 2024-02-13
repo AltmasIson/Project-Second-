@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+}
+.name{
+font-size: 30px;
+color: #fff;
+position: absolute;
+}
+h1{
+    font-size: 6vw;
+    font-weight: 900;
+    color: red;
+}
